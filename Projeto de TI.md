@@ -1,0 +1,33 @@
+## ✅ Parte 1 – Levantamento de Requisitos
+
+### 🔍 O que o sistema deve fazer?
+
+* Criar tarefas com **título**, **descrição**, **status** e **responsáveis**.
+* Criar **quadros (boards)** com **colunas personalizadas** (ex: "A Fazer", "Em Progresso", "Concluído").
+* Atribuir tarefas a **usuários específicos**.
+* **Mover tarefas** entre colunas conforme o progresso.
+* **Salvar** e **carregar** dados automaticamente (persistência).
+* Exibir um **visualizador administrativo (ADM)** com visão global de todas as tarefas e seus status.
+* Incluir um sistema de **login** com controle de tipo de usuário (membro ou líder/ADM).
+
+---
+
+### 👤 Quem são os usuários?
+
+* **Membros da equipe:** executam tarefas, acompanham seu progresso.
+* **Líderes de equipe (ADM):** criam, gerenciam e monitoram tarefas de todos os membros.
+
+---
+
+### 🧩 Quais são as ações principais esperadas?
+
+#### Membros:
+
+* Adicionar, editar e concluir **suas próprias tarefas**.
+* Visualizar o quadro com suas tarefas atribuídas.
+
+#### Líderes/ADMs:
+
+* Criar, editar, mover e excluir **tarefas de qualquer membro**.
+* Visualizar o **quadro completo da equipe**.
+* Gerenciar os **quadros, colunas e usuários**.
