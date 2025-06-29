@@ -16,14 +16,14 @@ Um sistema simples, baseado em terminal, que simula a gestão de tarefas entre m
 - Histórico de alterações (via arquivos `.log`)
 
 ## ▶️ Como Executar
+
 1. Clone o repositório:
+
    ```bash
    git clone https://github.com/MuriloFA29/Sistema-de-Controle-de-Tarefas-para-Equipes.git
+   cd Sistema-de-Controle-de-Tarefas-para-Equipes
 
-2. Execute o sistema:
-
-> **Pré-requisitos**: Python 3 instalado. Não é necessário configurar banco manualmente — o sistema cria o SQLite automaticamente.
+> **Pré-requisitos**: Python 3 instalado. Não é necessário configurar banco manualmente — o sistema cria o SQLite automaticamente ao iniciar.
 
 ## 📷 Diagrama UML
-![Diagrama UML](caminho/diagrama.png) <!-- ou: adicione a imagem na pasta e ajuste o caminho -->
 
