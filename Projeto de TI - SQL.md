@@ -8,7 +8,7 @@
   * nome (TEXT)
   * tipo (TEXT) — "membro" ou "adm"
   * login (TEXT) — único
-  * senha (TEXT) — para simplificar, pode ser texto puro (ou hashed se quiser algo extra)
+  * senha (TEXT)
 
 * **boards**
 
@@ -26,7 +26,7 @@
   * id (INTEGER PRIMARY KEY AUTOINCREMENT)
   * titulo (TEXT)
   * descricao (TEXT)
-  * status (TEXT) — poderia estar vinculado a colunas, mas pode ser texto também
+  * status (TEXT)
   * responsavel\_id (INTEGER, FOREIGN KEY para usuarios.id)
   * coluna\_id (INTEGER, FOREIGN KEY para colunas.id)
 
